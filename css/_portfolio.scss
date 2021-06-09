@@ -39,7 +39,7 @@
     bottom: 0;
     left: 0;
     color: $clr-white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     opacity: 0;
     transition: opacity 300ms ease-in-out;
 
@@ -57,6 +57,12 @@
     height: 100%;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  &__name {
+    color: $clr-red;
+    font-weight: $font-w-bold;
+    margin-bottom: 0.5rem;
   }
 
   &__description {

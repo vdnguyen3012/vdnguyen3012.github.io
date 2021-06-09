@@ -415,7 +415,7 @@ button:hover::before,
   bottom: 0;
   left: 0;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   opacity: 0;
   -webkit-transition: opacity 300ms ease-in-out;
   transition: opacity 300ms ease-in-out;
@@ -443,6 +443,12 @@ button:hover::before,
   height: 100%;
   margin-right: auto;
   margin-left: auto;
+}
+
+.portfolio__name {
+  color: #df163b;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
 }
 
 .portfolio__description {

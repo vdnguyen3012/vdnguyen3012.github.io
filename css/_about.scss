@@ -1,0 +1,14 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $clr-black-2;
+
+  &__intro {
+    line-height: 1.8;
+
+    @include breakpoint-up(medium) {
+      max-width: 500px;
+    }
+  }
+}

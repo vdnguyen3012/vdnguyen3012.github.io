@@ -1,0 +1,28 @@
+.footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 5rem 2rem;
+  color: rgb(191, 192, 196);
+
+  &__social {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+
+    > a > i {
+      color: rgb(191, 192, 196);
+
+      &:hover {
+        color: $clr-white;
+      }
+    }
+  }
+
+  &__copyright {
+    span {
+      color: $clr-red;
+    }
+  }
+}

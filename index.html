@@ -1,1 +1,228 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/favicon.ico" sizes="16x16" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="dist/css/style.css">
+  <title>VDNguyen | Full-Stack Web Developer</title>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header__logo">
+      <img src="images/logo.png" alt="logo">
+    </div>
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        <li class="header__nav-item"><a href="#home" class="header__nav-link">Home</a></li>
+        <li class="header__nav-item"><a href="#about" class="header__nav-link">About</a></li>
+        <li class="header__nav-item"><a href="#skills" class="header__nav-link">Skills</a></li>
+        <li class="header__nav-item"><a href="#portfolio" class="header__nav-link">Portfolio</a></li>
+        <li class="header__nav-item"><a href="#contact" class="header__nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="header__nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+  </header>
+
+  <!-- Home -->
+  <section class="home section" id="home">
+    <div class="home__avatar"><img src="images/avatar.jpg" alt="vdnguyen" /></div>
+    <h1 class="section__title">Hi, I'm Danh Nguyen</h1>
+    <p class="section__subtitle home__subtitle">Full-Stack Web Developer</p>
+    <p class="section__intro">I like building websites with high quality and experience, and I enjoy what I do.</p>
+    <a href="#about" class="button">About Me <i class="far fa-hand-point-down"></i></a>
+  </section>
+
+  <!-- About -->
+  <section class="about section" id="about">
+    <h2 class="section__title">About</h2>
+    <p class="section__intro about__intro">Having 5+ years of experience as a web developer in the web industry. I have the ability to develop a reliable website using different programming languages such as Ruby, Javascript, and PHP. I specialize in working with Ruby on Rails, NodeJS, ReactJS and have experience building complete web applications with backend API systems.</p>
+    <a href="files/Resume.pdf" class="button" download>Download CV <i class="fas fa-file-download"></i></a>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills section" id="skills">
+    <h2 class="section__title">Skills</h2>
+    <div class="skills__container">
+
+      <div class="skills__content">
+        <p class="skills__title">Front-end</p>
+        <ul class="skills__list">
+          <li class="skills__item">HTML</li>
+          <li class="skills__item">CSS</li>
+          <li class="skills__item">Sass</li>
+          <li class="skills__item">Javascript</li>
+          <li class="skills__item">ReactJS</li>
+          <li class="skills__item">JQuery</li>
+        </ul>
+      </div>
+
+      <div class="skills__content">
+        <p class="skills__title">Back-end</p>
+        <ul class="skills__list">
+          <li class="skills__item">Ruby</li>
+          <li class="skills__item">Ruby on Rails</li>
+          <li class="skills__item">NodeJS</li>
+          <li class="skills__item">NestJS</li>
+          <li class="skills__item">TypeScript</li>
+          <li class="skills__item">PHP</li>
+          <li class="skills__item">MySQL</li>
+          <li class="skills__item">PostgreSQL</li>
+          <li class="skills__item">MongoDB</li>
+        </ul>
+      </div>
+
+      <div class="skills__content">
+        <p class="skills__title">Others</p>
+        <ul class="skills__list">
+          <li class="skills__item">Git</li>
+          <li class="skills__item">Linux</li>
+          <li class="skills__item">Ubuntu</li>
+          <li class="skills__item">Apache</li>
+          <li class="skills__item">Nginx</li>
+          <li class="skills__item">Redis</li>
+          <li class="skills__item">RESTful APIs</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio section" id="portfolio">
+    <h2 class="section__title">Portfolio</h2>
+    <div class="portfolio__grid">
+      <div class="portfolio__item">
+        <img src="images/Tesen.JPG" alt="Tesen">
+        <div class="portfolio__overlay">
+          <div class="portfolio__details">
+            <p class="portfolio__description">
+              We are about sharing concepts, ideas and visions since they influence you — Our Community.
+            </p>
+            <div class="portfolio__tech">
+              <p>ReactJS</p>
+              <p>Redux</p>
+              <p>NodeJS</p>
+              <p>Express</p>
+              <p>MongoDB</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio__item">
+        <img src="images/TesenTutoring.JPG" alt="TesenTutoring">
+        <div class="portfolio__overlay">
+          <div class="portfolio__details">
+            <p class="portfolio__description">
+              We are about sharing concepts, ideas and visions since they influence you — Our Community.
+            </p>
+            <div class="portfolio__tech">
+              <p>ReactJS</p>
+              <p>Redux</p>
+              <p>NodeJS</p>
+              <p>Express</p>
+              <p>MongoDB</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio__item">
+        <img src="images/Brainfit.jpg" alt="Brainfit">
+        <div class="portfolio__overlay">
+          <div class="portfolio__details">
+            <p class="portfolio__description">
+              We are about sharing concepts, ideas and visions since they influence you — Our Community.
+            </p>
+            <div class="portfolio__tech">
+              <p>Ruby on Rails</p>
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>PostgreSQL</p>
+              <p>MongoDB</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio__item">
+        <img src="images/Livestar.jpg" alt="Livestar">
+        <div class="portfolio__overlay">
+          <div class="portfolio__details">
+            <p class="portfolio__description">
+              We are about sharing concepts, ideas and visions since they influence you — Our Community.
+            </p>
+            <div class="portfolio__tech">
+              <p>Ruby on Rails</p>
+              <p>NodeJS</p>
+              <p>Express</p>
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>MongoDB</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio__item">
+        <img src="images/Fit24.jpg" alt="Fit24">
+        <div class="portfolio__overlay">
+          <div class="portfolio__details">
+            <p class="portfolio__description">
+              We are about sharing concepts, ideas and visions since they influence you — Our Community.
+            </p>
+            <div class="portfolio__tech">
+              <p>PHP</p>
+              <p>Codeigniter</p>
+              <p>MySQL</p>
+              <p>HTML</p>
+              <p>CSS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio__item">
+        <img src="images/Pinksunfashion.jpg" alt="Pinksunfashion">
+        <div class="portfolio__overlay">
+          <div class="portfolio__details">
+            <p class="portfolio__description">
+              We are about sharing concepts, ideas and visions since they influence you — Our Community.
+            </p>
+            <div class="portfolio__tech">
+              <p>PHP</p>
+              <p>Codeigniter</p>
+              <p>MySQL</p>
+              <p>HTML</p>
+              <p>CSS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact -->
+  <!-- <section class="contact section">
+    <h2 class="section__title">Contact</h2>
+  </section> -->
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="footer__logo">
+      <img src="images/logo.png" alt="logo">
+    </div>
+    <div class="footer__social">
+      <a href="https://www.linkedin.com/in/vietdanhnguyen/" target="_blank"><i class="fab fa-2x fa-linkedin"></i></a>
+      <a href="https://github.com/vdnguyen3012" target="_blank"><i class="fab fa-2x fa-github"></i></a>
+      <a href="mailto:vdnguyen3012@gmail.com" target="_blank"><i class="far fa-2x fa-envelope"></i></i></a>
+    </div>
+    <p class="footer__copyright">Copyright &copy; 2021 <span>VDNguyen</span></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

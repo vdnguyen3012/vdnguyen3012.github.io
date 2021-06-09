@@ -1,0 +1,16 @@
+.home {
+  &__avatar {
+    margin-bottom: 3rem;
+    img {
+      margin: 0 auto;
+      border-radius: 50%;
+      border: 5px solid $clr-red;
+    }
+  }
+
+  &__subtitle {
+    font-style: italic;
+    color: $clr-red;
+    text-transform: uppercase;
+  }
+}
